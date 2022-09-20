@@ -1,0 +1,59 @@
+@import url("index.css");
+
+.title{
+    margin: 0 auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: fit-content;
+    width: fit-content;
+    padding: 10px 30px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
+
+.todo{
+    margin-top: 50px;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px;
+}
+
+
+.table{
+    margin-bottom: 0;
+}
+
+.accion{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.accion i {
+    font-size: 20px;
+}
+
+.accion i:hover {
+    color: black;
+}
+
+.accion .info{
+    color: rgb(30, 82, 203);
+}
+
+.accion .edit{
+    color: rgb(209, 182, 45);
+}
+
+.accion .delete{
+    color: rgb(189, 61, 70);
+}
+
+.nodata{
+    padding: 5px 10px;
+    padding-top: 9px;
+    text-align: center;
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+    border: 0.2px solid rgb(233, 233, 233);
+}

@@ -1,0 +1,10 @@
+#.htaccess file to redirect all non-existent paths and files to "/index.php"
+
+<IfModule mod_rewrite.c>
+
+    RewriteEngine On
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ /ToDo [L]
+
+</IfModule>

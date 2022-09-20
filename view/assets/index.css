@@ -1,0 +1,27 @@
+body{
+    background: #4AC29A;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to left, #BDFFF3, #4AC29A);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to left, #BDFFF3, #4AC29A); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+.logoutForm{
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.out-btn{
+    border: transparent;
+    height: 40px;
+    width: 40px;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    color: red;
+}
+
+.out-btn:hover{
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.5);
+}
