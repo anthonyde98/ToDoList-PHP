@@ -13,7 +13,7 @@
             <div class="extra d-flex justify-content-between flex-row-reverse mb-3">
                 <a class="btn btn-success pe-3" href='set.php'><i class='fad fa-plus-circle info'></i> Agregar</a>
                 <?php
-                    if($tareas && count($tareas) > 0){
+                    if(($tareas && count($tareas) > 0) || $buscar){
                 ?>
                 <form action="list.php" method="get">
                     <div class="input-group">

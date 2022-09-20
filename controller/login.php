@@ -127,6 +127,7 @@
                     session_start();
                     $_SESSION['usuario'] = $data;
                     header("Location: list.php");
+                    die();
                 }
             }
         }
