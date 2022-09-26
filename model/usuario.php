@@ -6,7 +6,8 @@
         private $connection = null;
 
         function __construct()
-        {   $connection = new Connection();
+        {   
+            $connection = new Connection();
             $this->connection = $connection->conectar();
         }
 
